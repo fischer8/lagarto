@@ -8,7 +8,7 @@ BluetoothSerial ESP_BT;
 #define CURRENT_CAL 7 //VALOR DE CALIBRAÇÃO (DEVE SER AJUSTADO EM PARALELO COM UM MULTÍMETRO MEDINDO A CORRENTE DA CARGA)
 const int pinoSensor = 36; //PINO ANALÓGICO EM QUE O SENSOR ESTÁ CONECTADO
 double currentDraw, KWh, KW, KWhIMPOSTOS,P;
-int botao=1000, V=127;
+int V=127;
 EnergyMonitor emon1; //CRIA UMA INSTÂNCIA  
 
 void setup() {
